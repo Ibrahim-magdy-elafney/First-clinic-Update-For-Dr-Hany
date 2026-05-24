@@ -1,0 +1,389 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #ff0000;
+    color: white;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        padding: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+}
+
+.box {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    width: 440px;
+    gap: 15px;
+
+    align-items: center;
+
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 8px;
+    margin-left: 3px;
+
+
+}
+
+.box li {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.logo {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-right: 10px;
+
+}
+
+@media (max-width: 768px) {
+
+    section {
+        background: #b90303;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+
+        background: #b90303;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
+
+button {
+
+    background: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
+
+
+button:hover {
+
+    background: #cacbcb;
+
+}
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .flex {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+}
+
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.text {
+
+    width: 100%;
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+.toothbrush {
+
+    width: 200px;
+    height: 200px;
+
+    object-fit: contain;
+
+    border-radius: 0;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.toothbrush2 {
+
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Note {
+
+    color: white;
+
+}
+
+select {
+
+    color: white;
+    text-align: center;
+
+}
+
+.number {
+
+    color: white;
+    text-align: center;
+
+}
+
+.date {
+
+    color: white;
+    text-align: center;
+
+}
+
+.time {
+
+    color: white;
+    text-align: center;
+
+}
+
+.Username {
+
+    color: white;
+    text-align: center;
+
+}
+
+.message-box {
+
+    width: 165px;
+    min-height: 80px;
+
+    color: white;
+    background: #ffffff;
+    border: 1px solid rgb(14, 185, 228);
+    border-radius: 5px;
+
+    text-align: center;
+
+    resize: vertical;
+
+}
+
+.email {
+
+    color: white;
+    text-align: center;
+
+}
+
+label {
+
+    color: white;
+
+
+}
+
+.Facebook {
+
+    color: white;
+
+
+}
+
+.Designer {
+
+    color: white;
+
+}
+
+.box a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.minbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    font-size: 11px;
+
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.minbox a {
+
+    color: #000;
+    text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+}
+
+.Ab {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Pr {
+
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
