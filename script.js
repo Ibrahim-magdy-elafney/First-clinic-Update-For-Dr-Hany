@@ -61,7 +61,7 @@ form.addEventListener("submit", function (e) {
 
 ⚠️بعد اذنك يا غالي تنورنا علشان تعرف دورك`;
 
-    const clinicPhone = "201080407065";
+    const clinicPhone = "201000596424";
 
     window.open(
         `https://wa.me/${clinicPhone}?text=${encodeURIComponent(clinicMessage)}`,
